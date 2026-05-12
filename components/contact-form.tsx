@@ -42,12 +42,12 @@ export function ContactForm() {
         <div className="absolute -inset-1 bg-gradient-to-r from-sky-500/10 to-cyan-500/10 rounded-xl blur opacity-25 hover:opacity-100 transition duration-1000 hover:duration-200"></div>
 
         <div className="relative">
-          <h3 className="text-2xl font-bold mb-6">Send Me a Message</h3>
+          <h3 className="text-2xl font-bold mb-6">欢迎联系我，交流学习和生活</h3>
 
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="space-y-2">
               <Input
-                placeholder="Your Name"
+                placeholder="你的姓名"
                 required
                 className="bg-zinc-900/50 border-zinc-700 focus:border-sky-500 focus:ring-sky-500/20"
               />
@@ -55,21 +55,14 @@ export function ContactForm() {
             <div className="space-y-2">
               <Input
                 type="email"
-                placeholder="Your Email"
-                required
-                className="bg-zinc-900/50 border-zinc-700 focus:border-sky-500 focus:ring-sky-500/20"
-              />
-            </div>
-            <div className="space-y-2">
-              <Input
-                placeholder="Subject"
+                placeholder="你的邮箱"
                 required
                 className="bg-zinc-900/50 border-zinc-700 focus:border-sky-500 focus:ring-sky-500/20"
               />
             </div>
             <div className="space-y-2">
               <Textarea
-                placeholder="Your Message"
+                placeholder="你想说的话"
                 rows={5}
                 required
                 className="bg-zinc-900/50 border-zinc-700 focus:border-sky-500 focus:ring-sky-500/20"
@@ -81,10 +74,10 @@ export function ContactForm() {
               disabled={isSubmitting}
             >
               {isSubmitting ? (
-                <>Sending...</>
+                <>努力加载中...</>
               ) : (
                 <>
-                  Send Message <Send className="ml-2 h-4 w-4" />
+                  发送信息 <Send className="ml-2 h-4 w-4" />
                 </>
               )}
             </Button>

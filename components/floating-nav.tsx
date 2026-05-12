@@ -27,11 +27,11 @@ export function FloatingNav() {
   }, [])
 
   const navItems = [
-    { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
-    { name: "Projects", href: "#projects" },
-    { name: "Experience", href: "#experience" },
-    { name: "Contact", href: "#contact" },
+    { name: "关于", href: "#about" },
+    { name: "技能", href: "#skills" },
+    { name: "文章", href: "#projects" },
+    { name: "经历", href: "#experience" },
+    { name: "联系方式", href: "#contact" },
   ]
 
   const handleNavClick = () => {
@@ -54,8 +54,8 @@ export function FloatingNav() {
           {isMobile ? (
             <div className="relative flex items-center justify-between">
               <Link href="/" className="font-bold text-lg">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-cyan-600">Shine</span>
-                <span className="text-white">KKA</span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-cyan-600">Gene</span>
+                <span className="text-white">Gene</span>
               </Link>
               <Button
                 variant="ghost"
@@ -69,8 +69,8 @@ export function FloatingNav() {
           ) : (
             <div className="relative flex items-center gap-1">
               <Link href="/" className="font-bold text-lg mr-4">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-cyan-600">Shine</span>
-                <span className="text-white">KKA</span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-cyan-600">Gene</span>
+                <span className="text-white"></span>
               </Link>
               {navItems.map((item) => (
                 <Link
@@ -86,7 +86,7 @@ export function FloatingNav() {
                 size="sm"
                 className="ml-2 bg-gradient-to-r from-sky-500 to-cyan-500 hover:from-cyan-500 hover:to-sky-500 border-0"
               >
-                Resume
+                简历
               </Button>
             </div>
           )}

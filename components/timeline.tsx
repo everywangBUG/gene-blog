@@ -5,31 +5,24 @@ import { useMobile } from "@/hooks/use-mobile"
 
 const experiences = [
   {
-    title: "Senior Frontend Engineer",
-    company: "Tech Innovations Inc.",
-    period: "2021 - Present",
+    title: "前端开发工程师",
+    company: "Chinese Mobile",
+    period: "2023 - 2026",
     description:
-      "Lead the frontend development team in building a SaaS platform. Implemented new features, improved performance, and mentored junior developers.",
+      "负责一家数字解决方案公司的前端开发，负责开发和维护公司的网站和应用程序。",
   },
   {
-    title: "Frontend Developer",
-    company: "Digital Solutions Co.",
-    period: "2019 - 2021",
+    title: "软件开发工程师",
+    company: "HzMetro",
+    period: "2020 - 2023",
     description:
-      "Developed responsive web applications using React and TypeScript. Collaborated with designers and backend engineers to deliver high-quality products.",
+      "在一家初创公司工作，负责开发和维护公司的网站和应用程序。",
   },
   {
-    title: "Web Developer",
-    company: "Creative Agency",
-    period: "2017 - 2019",
-    description:
-      "Built websites and web applications for various clients. Worked with HTML, CSS, JavaScript, and WordPress.",
-  },
-  {
-    title: "Intern",
-    company: "Startup Hub",
-    period: "2016 - 2017",
-    description: "Assisted in developing web applications and learned modern web development practices.",
+    title: "学习",
+    company: "华东交通大学",
+    period: "2016 - 2020",
+    description: "大学主修软件工程，学习了软件工程的基础理论和实践，包括程序设计、数据库、网络等。",
   },
 ]
 
